@@ -1,0 +1,83 @@
+#full_screen{
+    position: absolute;/* //定位 */
+    width:100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.2;
+    background-color: rgb(100, 97, 97);
+    border-radius: 10px;
+}
+#add_task{
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    position: absolute;/* //定位 */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.select_div{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    color: #919399;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+#button_upload_file{
+    margin-top: 3%;
+    margin-left: 7%;
+    width: 82%;
+    height: 39px;
+
+}
+.file_type{
+    width: 70%;
+    height: 30PX;
+    text-align: center;
+    font-size: 17px;
+    color: #000000;
+    size: 10px;
+}
+.button_type{
+    background-color: #4d67be;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.div_data{
+    height: 90%;
+    border-collapse: collapse;
+    margin-top:2%;
+}
+.div_data table{
+    width: 100%;
+    padding: 3px;
+    border-collapse: collapse;
+}
+.div_data table tr th{
+    padding: 10px;
+    /* text-align:left; */
+    background-color: #f6f7fb;
+}
+.div_data table tr td {
+    text-align: center;
+}
+input{
+    height: 26px;
+    border-radius: 10px;
+    border: 1px ridge black;
+}
+#main{
+    width: 90%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+    padding: 10px;
+    border: 1px ridge black;
+}

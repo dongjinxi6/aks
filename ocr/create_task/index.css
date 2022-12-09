@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#task_blii{
+    position: relative;
+    float: right;
+    margin-right: 10%;
+}
+#Submit{
+    position: relative;
+    float:right;
+    margin-right: 5%;
+}

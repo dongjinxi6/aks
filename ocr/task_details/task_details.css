@@ -1,0 +1,47 @@
+#main{
+margin-top: 2%;
+margin-left: 3%;
+width: 90%;
+}
+
+.button_type{
+    background-color: #4d67be;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    color: aliceblue;
+}
+#task_blii{
+    float:right;
+    margin-top: -3px;
+    /* margin-right: 4%; */
+}
+
+.table_data{
+    width: 100%;
+    padding: 3px;
+    border-collapse: collapse;
+}
+.table_data tr th{
+    padding: 10px;
+    /* text-align:left; */
+    background-color: #f6f7fb;
+}
+.table_data tr td {
+    text-align: center;
+}
+.div_data{
+    height: 90%;
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+#full_screen{
+    position: absolute;/* //定位 */
+    width:100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.2;
+    background-color: rgb(100, 97, 97);
+    border-radius: 10px;
+}
