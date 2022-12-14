@@ -1,4 +1,4 @@
-const task_blii = document.getElementById("task_blii")
+// const task_blii = document.getElementById("task_blii")
 function createSelect(){
     mySelect=document.createElement("select");
     mySelect.classList.add("file_type");
@@ -26,7 +26,8 @@ function alert_div(){
     create_select = createSelect()
     create_select.classList.add("select_div")
     core_screen.appendChild(create_select)
-    document.body.appendChild(core_screen)
+    // document.body.appendChild(core_screen)
+    full_screen.appendChild(core_screen)
 
     const upload_file = document.createElement("button")
     upload_file.innerHTML = "高拍仪图像上传"
@@ -35,5 +36,3 @@ function alert_div(){
     core_screen.appendChild(upload_file)
 
 }
-
-task_blii.onclick = alert_div
